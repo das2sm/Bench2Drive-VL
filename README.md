@@ -283,3 +283,15 @@ python eval.py \
 ## 📄 License
 
 All assets and code are licensed under **CC-BY-NC-ND**, unless specified otherwise.
+
+## 📜 Citation
+
+```bibtex
+@article{Bench2DriveSpeed,
+    title={Bench2Drive-VL: Benchmarks for Closed-Loop Autonomous Driving with Vision-Language Models}, 
+    author={Xiaosong Jia, Yuqian Shao, Zhenjie Yang, Qifeng Li, Zhiyuan Zhang, Junchi Yan},
+    year={2026},
+    eprint={2604.01259},
+    archivePrefix={arXiv},
+}
+```
