@@ -222,3 +222,5 @@ configs/
 eval_v1/
 output/
 *docker.sh
+
+carla/

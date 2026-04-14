@@ -347,7 +347,7 @@ class AutoPilot(autonomous_agent_local.AutonomousAgent):
             "pitch": 0.0,
             "yaw": 0.0,
             "sensor_tick": 0.05,
-            "id": "imu"
+            "id": "IMU"
         }, {
             "type": "sensor.speedometer",
             "reading_frequency": 20,
@@ -1024,3 +1024,7 @@ class AutoPilot(autonomous_agent_local.AutonomousAgent):
         angle_degrees = np.float_(math.degrees(angle_radians))
 
         return angle_degrees
+    
+    
+    def clean_unused_folders(self):
+        pass

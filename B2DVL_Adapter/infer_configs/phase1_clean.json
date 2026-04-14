@@ -1,0 +1,25 @@
+{
+  "MODEL_NAME": "autopilot",
+  "MODEL_PATH": "none",
+  "GPU_ID": 0,
+  "PORT": 2000,
+  "IN_CARLA": true,
+  "CONTROL_RATE": 2.0,
+  "USE_BASE64": false,
+  "NO_PERC_INFO": true,
+  "TASK_CONFIGS": {
+    "FRAME_PER_SEC": 10
+  },
+  "INFERENCE_BASICS": {
+    "INPUT_WINDOW": 1,
+    "USE_ALL_CAMERAS": false,
+    "USE_BEV": false,
+    "NO_HISTORY_MODE": true
+  },
+  "CHAIN": {
+    "NODE": [19, 24, 27, 28, 10, 12, 8, 13, 15, 7, 39, 41, 42],
+    "EDGE": {"19": [24, 27, 8, 10], "24": [28], "27": [28], "28": [8, 10, 12], "10": [13], "12": [13], "8": [42], "13": [42], "15": [7, 42], "7": [42], "39": [42], "41": [42], "42": []},
+    "INHERIT": {"19": [8, 13, 7]},
+    "USE_GT": [24, 27]
+  }
+}
